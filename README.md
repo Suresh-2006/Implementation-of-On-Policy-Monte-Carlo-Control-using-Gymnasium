@@ -300,26 +300,8 @@ env.close()
 
 ## Output
 
-```text
-Final Q-table:
+<img width="591" height="685" alt="image" src="https://github.com/user-attachments/assets/1a11e863-f130-4b5b-ace5-e0c54e288989" />
 
-[[Q-values for 16 states and 4 actions]]
-
-Estimated State-Value Function:
-
-[[V-values arranged in a 4 × 4 grid]]
-
-Learned Policy:
-
-[['L' 'D/R/U' ...]
- [... ... ... ...]
- [... ... ... ...]
- [... ... ... ...]]
-
-Average reward over last 1000 episodes: <value>
-```
-
-The exact Q-table, state-value function, policy, and average reward can vary between executions because the FrozenLake environment is stochastic and the Monte Carlo algorithm uses random exploration.
 
 ---
 
